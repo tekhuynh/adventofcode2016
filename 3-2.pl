@@ -1,4 +1,3 @@
-$count = 0;
 while (chomp($line = <>)) {
   @numbers = $line =~ /(\d+)/g;
   push @t, $numbers[0];
